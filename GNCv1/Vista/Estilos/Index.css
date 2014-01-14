@@ -1,0 +1,84 @@
+/* 
+    Document   : Index
+    Created on : 02-ene-2014, 15:14:32
+    Author     : Goweb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    background-color: #110F23;
+}
+.ContenedorLogo{
+    display:inline-block;
+    float: left;
+    width: 141px;
+    height: 47px;
+    background-image: url('../../Recursos/Imagenes/LogoIndex.png');
+}
+.BarraMenus{
+    display:inline-block;
+    float: left;
+    width: 100%;
+    position:fixed;
+    background-image: url('../../Recursos/Imagenes/PatronBanner.png');
+    background-repeat: repeat-x;
+}
+.BarraMenus ul{
+    margin-top: 0px;   
+    display:inline-block;
+}
+
+.BarraNavegacion{
+    width:100%;
+    height:83px;
+    /*padding-top: 33px;*/
+    /*padding-left: 75px;*/
+    /*background-image:url('../../Recursos/Imagenes/FondoBanner.png');*/
+}
+#IndexLogo{
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.ItemBN{
+    float: left;
+}
+
+a.ItemBN{
+    margin-left: 10px;
+    text-decoration: none;
+    height: 47px;
+    margin-top: 0px;
+    /*position: fixed;*/
+    cursor: pointer;
+    color:white;    
+    line-height:42px;
+}
+
+a.ItemBN:hover{
+    background-color: #312A4A;
+}
+
+#shelfcontenido{
+    margin-top: -70px;
+    background-color: #312A4A;
+    width:100%;
+    height:300px;
+    border-radius:10px;
+    
+}
+#listacontenido{
+    padding-top: 52px;
+}
+
+#listacontenido li{
+    color:white;
+    margin-bottom: 10px;
+}
+
+#shelfcontenido.show{
+    display:block;
+}
+#shelfcontenido.notshow{
+    display:none;
+}
