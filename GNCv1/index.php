@@ -5,8 +5,8 @@
         <title>Grupo Nopal Code</title>
         <link rel="stylesheet" type="text/css" href="Vista/Estilos/Index.css">
         <link href="./Recursos/Librerias/bootstrap-3.0.3-dist/dist/css/bootstrap.css" rel="stylesheet">
-         <script src="https://code.jquery.com/jquery.js"></script>
-         <script src="./Recursos/Librerias/bootstrap-3.0.3-dist/dist/js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="./Recursos/Librerias/bootstrap-3.0.3-dist/dist/js/bootstrap.js"></script>
         <script type="text/javascript" src="./Recursos/Controladores/ControladorMenus.js"></script>
     </head>
     <body>
@@ -30,53 +30,19 @@
         <div id="shelfcontenido" class="notshow">
             <ul id="listacontenido">lista</ul>
         </div>-->
-        
-        <div class="navbar-wrapper">
-      <div class="container">
 
-        <div id="barranavegacion" class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">GNC</a>
-            </div>
-            <div class="navbar-collapse in" style="height: auto;">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Acerca de...</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios y productos <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Desarrollo de software a la medida</a></li>
-                    <li><a href="#">Desarrollo movil</a></li>
-                    <li><a href="#">Paginas web</a></li>
-                    <li><a href="#">Licencias</a></li>
-                    <li><a href="#">Asesoria</a></li>                                        
-                  </ul>
-                </li>
-                <li><a href="#contact">Contacto</a></li>                
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+       <?php include_once './BarraNavegacion.php'; ?>
 
         <!--<div id="shelfnovedades" class="boxnovedades">            
             <ul id="listacontenido">
-                <!-- Plantilla ficha novedad -->
-           <!--     <li class="fichanovedad">
-                    <a>Ver todo...</a>
-                    <image src="Recursos/Imagenes/i1.png"/>
-                    <p>Resumen novedad</p>
-                </li>
-            </ul>
-        </div>    -->
+        <!-- Plantilla ficha novedad -->
+        <!--     <li class="fichanovedad">
+                 <a>Ver todo...</a>
+                 <image src="Recursos/Imagenes/i1.png"/>
+                 <p>Resumen novedad</p>
+             </li>
+         </ul>
+     </div>    -->
 
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -124,8 +90,39 @@
 
 
 
+        <!-- Footer -->
+        <!-- Soporte: Clientes, FAQ's, Manuales -->
+        <!-- Contratación: Filosofía, Metodología, Contacto -->
+        <!-- Aportes: Articulos, Tutoriales -->
+        <div class="container marketing">
 
 
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <h2><a href="#">Soporte</a></h2>          
+                    <p><a class="btn btn-default" href="#" role="button">Clientes</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">FAQ's</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Manuales</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <h2><a href="#">Contratacion</a></h2>
+                    <p><a class="btn btn-default" href="#" role="button">Filosofia</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Metodologia</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Contacto</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <h2><a href="#">Aportes</a></h2>
+                    <p><a class="btn btn-default" href="#" role="button">Articulos</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Tutoriales</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Media</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div>
+        </div>
 
         <?php
         // put your code here
