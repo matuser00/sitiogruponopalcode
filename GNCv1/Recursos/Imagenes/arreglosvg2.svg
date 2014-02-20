@@ -1,0 +1,29 @@
+<svg width="113" height="69" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient id="svg_6">
+   <stop offset="0" stop-color="#3f007f"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#0050ff"/>
+  </linearGradient>
+  <linearGradient id="svg_7">
+   <stop offset="0" stop-color="#0800ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#003f7f"/>
+  </linearGradient>
+  <linearGradient id="svg_8">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#003fff"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_9">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#bf00bf"/>
+  </linearGradient>
+  <linearGradient y2="1" x2="0" y1="1" x1="1" id="svg_11">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#bf00bf"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect opacity="0.5" stroke="#000000" id="svg_16" height="56.000001" width="113" y="12.633334" x="-0.200012" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff7f00"/>
+ </g>
+</svg>

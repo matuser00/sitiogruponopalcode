@@ -1,0 +1,37 @@
+<svg width="113" height="69" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient id="svg_6">
+   <stop offset="0" stop-color="#3f007f"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#0050ff"/>
+  </linearGradient>
+  <linearGradient id="svg_7">
+   <stop offset="0" stop-color="#0800ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#003f7f"/>
+  </linearGradient>
+  <linearGradient id="svg_8">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#003fff"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_9">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#bf00bf"/>
+  </linearGradient>
+  <linearGradient y2="1" x2="0" y1="1" x1="1" id="svg_11">
+   <stop offset="0" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#bf00bf"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" stroke-opacity="0" id="svg_15" height="69" width="113" y="0.300003" x="-0.000015" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#3f007f"/>
+  <g id="svg_10">
+   <path stroke="#7c1010" id="svg_4" d="m31.825201,0.055056l-27.070911,27.26996l81.212729,0l27.070908,-27.26996l-81.212725,0l0,0z" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="url(#svg_6)"/>
+   <path stroke="#7c1010" id="svg_5" d="m79.296837,0.201797l33.909256,-0.201797l-40.99144,57.349167l-33.909248,0.20179l40.991432,-57.349159l0,0z" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="url(#svg_11)"/>
+  </g>
+  <g transform="rotate(179.542 54.4543 39.4501)" id="svg_12">
+   <path id="svg_13" stroke="#7c1010" d="m27.299303,10.729637l-27.070923,27.269958l81.212736,0l27.070892,-27.269958l-81.212706,0l0,0z" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="url(#svg_6)"/>
+   <path id="svg_14" stroke="#7c1010" d="m74.77092,10.876381l33.909271,-0.201797l-40.991455,57.349152l-33.909241,0.201797l40.991425,-57.349152l0,0z" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="url(#svg_11)"/>
+  </g>
+ </g>
+</svg>

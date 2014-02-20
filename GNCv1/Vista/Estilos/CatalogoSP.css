@@ -1,4 +1,12 @@
 /* 
+    Document   : AcercaDe
+    Created on : 18-feb-2014, 16:25:10
+    Author     : Goweb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
     Document   : Index
     Created on : 02-ene-2014, 15:14:32
     Author     : Goweb
@@ -163,37 +171,31 @@ body {
   }
 }
 
-/*===== ESTILOS INDEX =====*/
-/*-- Descripcion novedad --*/
-.DescripcionNovedad{    
-    height: 45%;    
-    background-image: url("../../Recursos/Imagenes/arreglosvg2.svg");
-     background-repeat: no-repeat;    
-    background-size: 120%;
+
+/*==== ESTILOS SERVICIOSPRODUCTOS ====*/
+.Presentacion{
+    margin-top: 80px;
 }
-/*-- Descripcion novedad --*/
-/*-- Imagenes feed novedades--*/
-.ImagenFeedNovedades{
-    width: 340px !important;
-    height: 100% !important;
+/*-- Titulo: */
+.Presentacion .titulo{
+    color:white;
 }
-/*-- Imagenes feed novedades--*/
-/*-- Imagenes shelf --*/
-.ImagenShelf{    
-    box-shadow: 1px 2px 6px 2px #777 !important;
-    margin-top: 6px;
-    width: 140px !important;
-    height: 140px !important;
+/*-- Texto: */
+.Presentacion .texto{
+    color:whitesmoke;
 }
-/*.ItemShelf{    
-    background-image: url("../../Recursos/Imagenes/arreglosvg.svg");
-    background-position: center;
-}*/
-.Shelf{    
-    border-radius:10px;
-    background-image: url("../../Recursos/Imagenes/arreglosvg.svg");
-    background-repeat: no-repeat;    
-    background-size: cover;
+/*-- Link politicas: */
+.Presentacion .linkproceso{
+    color:palevioletred;
 }
-/*-- Imagenes shelf --*/
-/*===== ESTILOS INDEX =====*/
+/*-- Catalogo --*/
+.Catalogo{  
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-top: 10px;
+    width:100%;
+    height:500px;
+    background-color: #269abc;
+}
+/*-- Catalogo --*/
+/*==== ESTILOS SERVICIOSPRODUCTOS ====*/

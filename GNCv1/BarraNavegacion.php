@@ -22,7 +22,7 @@ Barra de navegacion:
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios y productos <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="ServiciosProductos.php">Catalogo...</a></li>
+                                        <li><a href="CatalogoSP.php">Catalogo...</a></li>
                                         <li><a href="#">Desarrollo de software a la medida</a></li>
                                         <li><a href="#">Desarrollo movil</a></li>
                                         <li><a href="#">Paginas web</a></li>

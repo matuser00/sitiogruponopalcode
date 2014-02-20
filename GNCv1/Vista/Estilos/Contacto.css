@@ -1,4 +1,12 @@
 /* 
+    Document   : AcercaDe
+    Created on : 18-feb-2014, 16:25:10
+    Author     : Goweb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
     Document   : Index
     Created on : 02-ene-2014, 15:14:32
     Author     : Goweb
@@ -163,37 +171,25 @@ body {
   }
 }
 
-/*===== ESTILOS INDEX =====*/
-/*-- Descripcion novedad --*/
-.DescripcionNovedad{    
-    height: 45%;    
-    background-image: url("../../Recursos/Imagenes/arreglosvg2.svg");
-     background-repeat: no-repeat;    
-    background-size: 120%;
+
+/*==== ESTILOS CONTACTO ====*/
+/*-- Seccion: Formulario de mensaje --*/
+.SeccionContacto{
+    margin-top: 80px;
 }
-/*-- Descripcion novedad --*/
-/*-- Imagenes feed novedades--*/
-.ImagenFeedNovedades{
-    width: 340px !important;
-    height: 100% !important;
+/*-- Seccion: Formulario de mensaje --*/
+/*-- Seccion: Informacion contacto --*/
+/*-- Titulo */
+.SeccionInformacionContacto,.SeccionContacto .titulo{
+    color:white;
 }
-/*-- Imagenes feed novedades--*/
-/*-- Imagenes shelf --*/
-.ImagenShelf{    
-    box-shadow: 1px 2px 6px 2px #777 !important;
-    margin-top: 6px;
-    width: 140px !important;
-    height: 140px !important;
+/*-- Titulo */
+/*-- Texto */
+.SeccionInformacionContacto,.SeccionContacto .texto{
+    color:whitesmoke;
 }
-/*.ItemShelf{    
-    background-image: url("../../Recursos/Imagenes/arreglosvg.svg");
-    background-position: center;
-}*/
-.Shelf{    
-    border-radius:10px;
-    background-image: url("../../Recursos/Imagenes/arreglosvg.svg");
-    background-repeat: no-repeat;    
-    background-size: cover;
-}
-/*-- Imagenes shelf --*/
-/*===== ESTILOS INDEX =====*/
+/*-- Texto */
+/*-- Seccion: Formulario de mensaje --*/
+/*-- Formulario contacto*/
+/*-- Seccion: Catalogo de integrantes --*/
+/*==== ESTILOS CONTACTO ====*/
