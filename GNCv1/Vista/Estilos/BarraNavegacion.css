@@ -1,0 +1,90 @@
+/* 
+    Document   : BarraNavegacion
+    Created on : 19-ene-2014, 9:18:29
+    Author     : tomas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.ContenedorLogo{
+    display:inline-block;
+    float: left;
+    width: 141px;
+    height: 47px;
+    background-image: url('../../Recursos/Imagenes/LogoIndex.png');
+}
+.BarraMenus{
+    display:inline-block;
+    float: left;
+    width: 100%;
+    position:fixed;
+    background-image: url('../../Recursos/Imagenes/PatronBanner.png');
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 8px #888888;
+    height: 47px;
+    h-shadow: -10px;
+}
+.BarraMenus ul{
+    margin-top: 0px;   
+    display:inline-block;
+}
+
+.BarraNavegacion{
+    width:100%;
+    height:83px;
+    /*padding-top: 33px;*/
+    /*padding-left: 75px;*/
+    /*background-image:url('../../Recursos/Imagenes/FondoBanner.png');*/
+}
+#IndexLogo{
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.ItemBN{
+    float: left;
+}
+
+a.ItemBN{
+    margin-left: 10px;
+    text-decoration: none;
+    height: 47px;
+    margin-top: 0px;
+    /*position: fixed;*/
+    cursor: pointer;
+    color:white;    
+    line-height:42px;
+}
+
+a.ItemBN:hover{
+    background-color: #312A4A;
+}
+
+#shelfcontenido{
+    margin-top: -36px;
+    background-color: #312A4A;
+    width:99.6%;
+    height:300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+}
+#listacontenido{
+    padding-top: 52px;
+}
+
+#listacontenido li{
+    color:white;
+    margin-bottom: 10px;
+}
+
+#shelfcontenido.show{
+    display:block;
+    position:fixed;
+    z-index: 1;
+}
+#shelfcontenido.notshow{
+    display:none;
+    
+}

@@ -1,0 +1,46 @@
+/* 
+    Document   : ScrollBox
+    Created on : 19-ene-2014, 9:22:19
+    Author     : tomas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.ScrollBox{
+    width: 96.5%;
+    
+    background-color: green;
+    padding-left: 4%;
+    
+}
+.ScrollBoxItem img{
+    width:75%;
+   
+    
+}
+.ScrollBoxItem{
+    list-style-type: none;
+    width: 80%;
+    height:100%;
+    background-color: cadetblue;
+    padding-left: 13%;
+}
+
+.SIItemBox{
+    background-color: chocolate;
+    position: relative;
+    width:80%;
+    height: 10%;
+    margin-top: -20px;
+}
+
+.SIItemBox input{
+    display: block;
+    float: left;
+    width:20%;
+    height:100%;
+    font-size: 10;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
